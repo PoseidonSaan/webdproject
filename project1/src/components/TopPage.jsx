@@ -7,7 +7,7 @@ const TopPage = () => {
 
 
   return (
-    <header className="bg-[#242A36] text-white p-4 mb-5">
+    <header className="bg-[#242A36] text-white p-4 mb-5 ">
 
       <div className="flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col  mb-4 md:mb-0">

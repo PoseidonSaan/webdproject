@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineLine } from 'react-icons/ai';
+import {AiOutlineMinus } from 'react-icons/ai';
 import {GiPistolGun} from 'react-icons/gi'
 import {GiHandcuffs} from 'react-icons/gi'
 import {MdOutlineFamilyRestroom} from 'react-icons/md'
@@ -15,15 +15,21 @@ const AreaPractice = () => {
     <div>
        
 
-        <div className='w-100% h-fit flex items-center justify-between bg-yellow-500  mr-10 ml-10 mb-20 text-6xl' >
-        <div className='text-md  md:px-20 text-white pt-10'>
-            <div className='font-extrabold'>
-                <h2>AREAS OF PRACTICE</h2>  
-            </div> 
-            <AiOutlineLine className=' w-1/6 h-1/5'/>
+       <div
+          className='uppercase text-5xl bg-yellow-700 bg-opacity-80 text-white text-left font-black font-[sans-serif]  pt-10 pl-20 mx-10 pb-0 mb-32 h-52'
+          style={{
+            background: "url('https://jayantbhatt.in/wp-content/uploads/2019/01/header_bg-copyright.png') no-repeat center center fixed",
+            backgroundBlendMode: "multiply",
+            backgroundColor: "rgba(232, 150, 19, 0.5)",
+            minHeight: "100%",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center center",
+            backgroundAttachment: "local",
+          }}>
+          <h1 className='pt-5 pb-0'>AREAS OF PRACTICE</h1>
+          <AiOutlineMinus size={150} pt-0 />
         </div>
-             
-    </div>
         
 
     <div className='w-80% h-1/4 md:h-1/2 mx-20 bg-slate-200 flex justify-center py-10 mb-20'>

@@ -10,12 +10,12 @@ const NavBar = () => {
 
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-black">
+    <div className="flex justify-between items-center w-80% h-20 px-4 text-black mx-10">
       <div>
-        <img src={Logo} alt="logo" className='cursor-pointer' />
+        <img src={Logo} alt="logo" className='cursor-pointer ' />
       </div>
 
-      <ul className='hidden md:flex text-black'>
+      <ul className='hidden md:flex text-black text-xs font-medium'>
         <li className='px-4 cursor-pointer uppercase font-small
         hover:scale-105 duration-200 hover:text-yellow-400 focus:text-yellow-400'>Home</li>
         <li className='px-4 cursor-pointer uppercase font-small
