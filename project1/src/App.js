@@ -10,6 +10,7 @@ import Image from './components/Image';
 import NavBar from './components/NavBar';
 import TopPage from './components/TopPage';
 import FamilyLaw from './components/FamilyLaw';
+import { Routes , Route } from 'react-router-dom';
 
 
 function App() {
@@ -17,7 +18,16 @@ function App() {
     <div>
       <TopPage />
       <NavBar />
-      <FamilyLaw />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/areapractice' element={<AreaPractice/>} />
+        <Route path='/businesslaw' element={<BusinessLaw/>} />
+        <Route path='/civildispute' element={<CivilDispute/>} />
+        <Route path='/constitutionallaw' element={<ConstitutionalLaw/>} />
+        <Route path='/criminallaw' element={<CriminalLaw/>} />
+        <Route path='/familylaw' element={<FamilyLaw/>} />
+
+      </Routes>
       <BottomPage />
     </div>
   );

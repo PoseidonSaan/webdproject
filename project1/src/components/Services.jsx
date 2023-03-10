@@ -9,13 +9,17 @@ import {FaBusinessTime} from 'react-icons/fa'
 import {RiTeamFill} from 'react-icons/ri'
 
 const Services = () => {
+    const e1 = document.getElementById('b1');
+    e1.addEventListener('click', () => {
+        window.open('/businesslaw');
+    });
     
   return (
     <div className='w-full h-1/4 md:h-1/2'>
         <div className='grid grid-cols-1 md:grid-cols-4 px-20 py-48 '>
 
            
-                 <div  className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer '>
+                 <div  className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer ' id='b1'>
                     <div className='flex items-center justify-center'>
                        <RiTeamFill className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                     </div>

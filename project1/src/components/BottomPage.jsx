@@ -22,7 +22,7 @@ const BottomPage = () => (
                     <ul>
                         <li className="mb-2"><div className="inline-flex items-center font-bold">
                             <IoChevronForwardSharp className="mr-1" />
-                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer">areas of practice</span>
+                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='/areapractice'>Areas Of Practice</a></span>
                         </div>
                         </li>
                         <li className="mb-2"><div className="inline-flex items-center font-bold">

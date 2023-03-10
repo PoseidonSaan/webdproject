@@ -17,9 +17,9 @@ const NavBar = () => {
 
       <ul className='hidden md:flex text-black text-xs font-medium'>
         <li className='px-4 cursor-pointer uppercase font-small
-        hover:scale-105 duration-200 hover:text-yellow-400 focus:text-yellow-400'>Home</li>
+        hover:scale-105 duration-200 hover:text-yellow-400 focus:text-yellow-400'><a href='/'>Home</a></li>
         <li className='px-4 cursor-pointer uppercase font-small
-        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'>areas of practice</li>
+        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/areapractice'>Areas Of Practice</a></li>
         <li className='px-4 cursor-pointer uppercase font-small
         hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'>publication & media</li>
         <li className='px-4 cursor-pointer uppercase font-small
