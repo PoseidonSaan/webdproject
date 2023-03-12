@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/webdproject%20/static/css/main.2c91f90d.css",
+    "main.js": "/webdproject%20/static/js/main.2c2f12a8.js",
+    "static/media/IMG_8883.png": "/webdproject%20/static/media/IMG_8883.bee13b5d993be9503c47.png",
+    "static/media/Business-Laws.jpg": "/webdproject%20/static/media/Business-Laws.edab942e2772e2deb4d2.jpg",
+    "static/media/logo.png": "/webdproject%20/static/media/logo.4b7bc6e63ee034288268.png",
+    "static/media/plainlogo.png": "/webdproject%20/static/media/plainlogo.b2a0219fb490094f2a9c.png",
+    "index.html": "/webdproject%20/index.html",
+    "main.2c91f90d.css.map": "/webdproject%20/static/css/main.2c91f90d.css.map",
+    "main.2c2f12a8.js.map": "/webdproject%20/static/js/main.2c2f12a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c91f90d.css",
+    "static/js/main.2c2f12a8.js"
+  ]
+}
